@@ -17,7 +17,7 @@ return {
     --   function() require("astronvim.utils.buffer").nav(-(vim.v.count > 0 and vim.v.count or 1)) end,
     --   desc = "Previous buffer",
     -- },
-
+    -- ["<C-Up>"] = { "<cmd>resize -2<CR>", desc = "Resize Up" }
     -- mappings seen under group name "Buffer"
     ["<leader>bD"] = {
       function()
